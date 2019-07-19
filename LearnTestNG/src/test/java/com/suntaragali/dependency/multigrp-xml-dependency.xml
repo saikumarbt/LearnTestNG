@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Multi Group XML Dependency Suite" verbose="1">
+    <test name = "Multi Group XML Dependency Test">
+        <groups>
+            <dependencies>
+                <group name = "dependent-group" depends-on="test-group-one test-group-two"/>
+            </dependencies>
+            <run>
+                <include name="dependent-group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.suntaragali.dependency.MultiGrpXmlDependency"/>
+        </classes>
+    </test>
+</suite>

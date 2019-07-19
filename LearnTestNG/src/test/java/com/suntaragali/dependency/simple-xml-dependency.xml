@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<suite name="Simple xml dependency Suite" parallel = "false">
+    <test name = "Simple xml dependency Test">
+        <groups>
+            <dependencies>
+                <group name="dependent-group" depends-on="test-me"/>
+            </dependencies>
+            <run>
+                <include name="dependent-group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.suntaragali.dependency.SimpleXmlDependency"/>
+        </classes>
+    </test>
+</suite>
