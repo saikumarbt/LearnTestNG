@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "Parameter test suite" parallel = "false">
+    <parameter name = "suite-param" value = "suite level parameter"/>
+    <test name = "Parameter Test One">
+        <classes>
+            <class name = "com.suntaragali.parameterization.ParameterTest">
+                <methods>
+                    <include name = "parameterTestOne"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Parameter Test Two">
+        <parameter name = "test-two-param" value="Test Two Parameter" />
+        <classes>
+            <class name = "com.suntaragali.parameterization.ParameterTest">
+                <methods>
+                    <include name ="parameterTestTwo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Parameter Test three">
+        <parameter name = "suite-param" value="overriding suite parameter"/>
+        <parameter name = "test-three-param" value = "test three parameter"/>
+        <classes>
+            <class name = "com.suntaragali.parameterization.ParameterTest">
+                <methods>
+                    <include name = "parameterTestThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

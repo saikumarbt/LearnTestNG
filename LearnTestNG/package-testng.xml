@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Package Suite" parallel="false">
+    <test name = "Package Test">
+        <packages>
+            <package name = "com.suntaragali.firstpackage"/>
+            <package name = "com.suntaragali.thirdpackage"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name="Group of Group Test Suite" parallel = "false">
+    <test name = "Group of Group Test">
+        <groups>
+            <define name = "include-group">
+                <include name = "include-test-one"/>
+                <include name = "include-test-two"/>
+            </define>
+            <define name = "exclude-group">
+                <include name = "exclude-test-one"/>
+                <include name = "exclude-test-two"/>
+            </define>
+            <run>
+                <include name = "include-group"/>
+                <exlcude name = "exclude-group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.suntaragali.groups.RegularExpressionGroup"/>
+        </classes>
+    </test>
+</suite>

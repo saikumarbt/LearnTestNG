@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31" started-at="2019-07-19T07:23:11Z" finished-at="2019-07-19T07:23:11Z">
+    <groups>
+      <group name="starts-with-two">
+        <method signature="RegExDependency.startsWithMethodTwo()[pri:0, instance:com.suntaragali.dependency.RegExDependency@1810399e]" name="startsWithMethodTwo" class="com.suntaragali.dependency.RegExDependency"/>
+      </group> <!-- starts-with-two -->
+      <group name="starts-with-one">
+        <method signature="RegExDependency.startsWithMethodOne()[pri:0, instance:com.suntaragali.dependency.RegExDependency@1810399e]" name="startsWithMethodOne" class="com.suntaragali.dependency.RegExDependency"/>
+      </group> <!-- starts-with-one -->
+    </groups>
+    <test name="Default test" duration-ms="31" started-at="2019-07-19T07:23:11Z" finished-at="2019-07-19T07:23:11Z">
+      <class name="com.suntaragali.dependency.RegExDependency">
+        <test-method status="PASS" signature="startsWithMethodOne()[pri:0, instance:com.suntaragali.dependency.RegExDependency@1810399e]" name="startsWithMethodOne" duration-ms="14" started-at="2019-07-19T07:23:11Z" finished-at="2019-07-19T07:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startsWithMethodOne -->
+        <test-method status="PASS" signature="startsWithMethodTwo()[pri:0, instance:com.suntaragali.dependency.RegExDependency@1810399e]" name="startsWithMethodTwo" duration-ms="0" started-at="2019-07-19T07:23:11Z" finished-at="2019-07-19T07:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startsWithMethodTwo -->
+        <test-method status="PASS" signature="regularExpMethod()[pri:0, instance:com.suntaragali.dependency.RegExDependency@1810399e]" name="regularExpMethod" duration-ms="0" depends-on-groups="starts-with.*" started-at="2019-07-19T07:23:11Z" finished-at="2019-07-19T07:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regularExpMethod -->
+      </class> <!-- com.suntaragali.dependency.RegExDependency -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

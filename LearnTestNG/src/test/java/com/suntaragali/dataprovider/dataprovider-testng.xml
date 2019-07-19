@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<suite name = "Data Provider Suite" parallel = "false">
+    <test name = "Data Provider Test">
+        <classes>
+            <class name = "com.suntaragali.dataprovider.SameClassDataProvider"/>
+        </classes>
+    </test>
+</suite>

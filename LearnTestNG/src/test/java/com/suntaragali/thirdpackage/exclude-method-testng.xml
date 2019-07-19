@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExcludeMethod Suite" parallel="false">
+	<test name="Exclude Method Test">
+		<classes>
+			<class name="com.suntaragali.thirdpackage.FirstTest" >
+				<methods>
+					<exclude name="firstTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

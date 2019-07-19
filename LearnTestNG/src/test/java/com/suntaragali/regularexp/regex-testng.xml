@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Regular Exp Suite" parallel = "false">
+    <test name = "Regular Exp Test">
+        <classes>
+            <class name = "com.suntaragali.regularexp.RegularExp">
+                <methods>
+                    <include name = ".*Test.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

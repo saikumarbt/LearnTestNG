@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Time Test Suite" time-out ="500" parallel = "false">
+    <test name = "Time out Test">
+        <classes>
+            <class name = "com.suntaragali.testngpractice.TimeSuite"/>
+        </classes>
+    </test>
+</suite>

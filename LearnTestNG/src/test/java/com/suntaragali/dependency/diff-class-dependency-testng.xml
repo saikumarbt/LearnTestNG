@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "Different class dependency Suite" parallel = "false">
+    <test name = "Different class dependency test">
+        <packages>
+            <package name = "com.suntaragali.dependency"/>
+        </packages>
+    </test>
+</suite>

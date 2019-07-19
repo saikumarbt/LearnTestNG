@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.suntaragali.testngpractice.ExceptionTest">
+        <methods>
+          <include name="exceptionTestTwo"/>
+        </methods>
+      </class> <!-- com.suntaragali.testngpractice.ExceptionTest -->
+      <class name="com.suntaragali.testngpractice.TimeSuite">
+        <methods>
+          <include name="timeTestOne"/>
+        </methods>
+      </class> <!-- com.suntaragali.testngpractice.TimeSuite -->
+      <class name="com.suntaragali.testngpractice.ExceptionMessageTest">
+        <methods>
+          <include name="exceptionMsgTestThree"/>
+        </methods>
+      </class> <!-- com.suntaragali.testngpractice.ExceptionMessageTest -->
+      <class name="com.suntaragali.parameterization.ParameterTest">
+        <methods>
+          <include name="parameterTestTwo"/>
+          <include name="parameterTestThree"/>
+          <include name="parameterTestOne"/>
+        </methods>
+      </class> <!-- com.suntaragali.parameterization.ParameterTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

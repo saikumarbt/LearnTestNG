@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "RegExp Group suite" parallel = "false">
+    <test name = "RegExp Test">
+        <groups>
+            <run>
+                <include name = "include.*"/>
+                <exclude name = ".*exclude"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.suntaragali.groups.RegularExpressionGroup"/>
+        </classes>
+    </test>
+</suite>

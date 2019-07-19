@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Include Package Suite" parallel="false">
+    <test name = "Include Package Test">
+        <packages>
+            <package name = "com.suntaragali.*">
+            	<include name = "com.suntaragali.secondpackage"/>
+            </package>            
+        </packages>
+    </test>
+</suite>

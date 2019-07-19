@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "Optional Param Test" parallel = "false">
+    <test name = "Optional Test One">
+        <classes>
+            <class name = "com.suntaragali.parameterization.OptionalParamTest"/>
+        </classes>
+    </test>
+    <test name = "Optional Test Two">
+        <parameter name = "optional-value" value="Passed from XML"/>
+        <classes>
+            <class name = "com.suntaragali.parameterization.OptionalParamTest"/>
+        </classes>
+    </test>
+</suite>

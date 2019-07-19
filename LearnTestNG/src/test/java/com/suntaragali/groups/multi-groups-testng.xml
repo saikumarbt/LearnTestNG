@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<suite name = "Multi group Test Suite" parallel = "false">
+    <test name = "Group Test One">
+        <groups>
+            <run>
+                <include name = "group-one"/>
+            </run>
+            <classes>
+                <class name = "com.suntaragali.groups.MultiGroup"/>
+            </classes>
+        </groups>
+    </test>
+    <test name = "Group Test Two">
+        <groups>
+            <run>
+                <include name = "group-two"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.suntaragali.groups.MultiGroup"/>
+        </classes>
+    </test>
+</suite>

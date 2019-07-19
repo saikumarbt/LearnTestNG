@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Method Suite" parallel="false">
+	<test name="Method Test">
+		<classes>
+			<class name="com.suntaragali.firstpackage.FirstTest" />
+			<class name="com.suntaragali.thirdpackage.FirstTest" >
+				<methods>
+					<include name="firstTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

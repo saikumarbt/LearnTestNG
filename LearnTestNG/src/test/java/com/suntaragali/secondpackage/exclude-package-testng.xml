@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Exclude Package Suite" parallel="false">
+    <test name = "Exclude Package Test">
+        <packages>
+            <package name = "com.suntaragali.*">
+            	<exclude name = "com.suntaragali.secondpackage"/>
+            </package>            
+        </packages>
+    </test>
+</suite>

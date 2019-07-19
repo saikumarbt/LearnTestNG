@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Time Test Suite]" time-out="500">
+  <test thread-count="5" name="Time out Test(failed)" time-out="500">
+    <classes>
+      <class name="com.suntaragali.testngpractice.TimeSuite">
+        <methods>
+          <include name="timeTestOne"/>
+        </methods>
+      </class> <!-- com.suntaragali.testngpractice.TimeSuite -->
+    </classes>
+  </test> <!-- Time out Test(failed) -->
+</suite> <!-- Failed suite [Time Test Suite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name = "FirstTest">
+        <classes>
+            <class name = "com.suntaragali.firstpackage.FirstTest"/>
+        </classes>
+    </test>'
+    <test name = "SecondTest">
+        <classes>
+            <class name = "com.suntaragali.firstpackage.SecondTest"/>
+        </classes>
+    </test>
+</suite>
