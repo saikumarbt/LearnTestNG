@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Factory Dependency Test Suite" duration-ms="25" started-at="2019-07-22T06:59:43Z" finished-at="2019-07-22T06:59:43Z">
+    <groups>
+    </groups>
+    <test name="Factory Dependency Test" duration-ms="25" started-at="2019-07-22T06:59:43Z" finished-at="2019-07-22T06:59:43Z">
+      <class name="com.suntaragali.classes.DependencyTest">
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.suntaragali.classes.DependencyTest@62ee68d8]" name="testMethodTwo" duration-ms="0" started-at="2019-07-22T06:59:43Z" finished-at="2019-07-22T06:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.suntaragali.classes.DependencyTest@62ee68d8]" name="testMethodOne" duration-ms="0" started-at="2019-07-22T06:59:43Z" depends-on-methods="com.suntaragali.classes.DependencyTest.testMethodTwo" finished-at="2019-07-22T06:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.suntaragali.classes.DependencyTest@735b5592]" name="testMethodOne" duration-ms="0" started-at="2019-07-22T06:59:43Z" depends-on-methods="com.suntaragali.classes.DependencyTest.testMethodTwo" finished-at="2019-07-22T06:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.suntaragali.classes.DependencyTest@735b5592]" name="testMethodTwo" duration-ms="0" started-at="2019-07-22T06:59:43Z" finished-at="2019-07-22T06:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+      </class> <!-- com.suntaragali.classes.DependencyTest -->
+    </test> <!-- Factory Dependency Test -->
+  </suite> <!-- Factory Dependency Test Suite -->
+</testng-results>

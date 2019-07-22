@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8"?> 
+<suite name = "Factory Dependency Test Suite" verbose = "1">
+    <test name = "Factory Dependency Test" group-by-instances = "true">
+        <classes>
+            <class name ="com.suntaragali.factory.DependencyFactory"/>
+        </classes>
+    </test>
+</suite>
