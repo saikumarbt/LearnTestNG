@@ -1,0 +1,47 @@
+package com.suntaragali.parallelism;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class SampleTestSuiteInParallel {
+
+	String testName = "";
+	
+	@BeforeTest
+	@Parameters({"test-name"})
+	public void beforeTest(String testName) {
+		this.testName = testName;
+		long id = Thread.currentThread().getId();
+		System.out.println("Before Test " +testName+ ". Thread id is: "+id);
+	}
+	
+	@BeforeClass
+	public void beforeClass() {
+		long id = Thread.currentThread().getId();
+		System.out.println("Before Test-Class "+testName+ ". Thread id is: "+id);
+	}
+	
+	@Test
+	public void testMethodOne() {
+		long id = Thread.currentThread().getId();
+		System.out.println("Sample test-method "+testName+ ". Thread id is :"+id);
+	}
+	
+	@AfterClass
+	public void afterClass() {
+		long id = Thread.currentThread().getId();
+		System.out.println("After Test-Method "+testName+ ". Thread id is : "+id);
+	}
+	
+	@AfterTest
+	public void afterTest() {
+		long id = Thread.currentThread().getId();
+		System.out.println("After Test "+testName+ ". Thread id is : "+id);
+	}
+	
+	
+}

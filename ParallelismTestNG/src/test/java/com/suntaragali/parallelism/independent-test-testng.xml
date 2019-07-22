@@ -1,0 +1,9 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Independent Test in Parallel">
+    <test name = "Independent Test">
+        <classes>
+            <class name = "com.suntaragali.parallelism.SampleIndependentTestInParallel"/>
+        </classes>
+    </test>
+</suite>
