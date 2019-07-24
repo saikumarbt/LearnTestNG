@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Simple Reporter Suite]">
+  <listeners>
+    <listener class-name="com.suntaragali.reporter.CustomReporter"/>
+  </listeners>
+  <test thread-count="5" name=" Simple Reporter Test(failed)">
+    <classes>
+      <class name="com.suntaragali.sample.SampleTest">
+        <methods>
+          <include name="testMethodTwo"/>
+          <include name="testMethodThree"/>
+        </methods>
+      </class> <!-- com.suntaragali.sample.SampleTest -->
+    </classes>
+  </test> <!--  Simple Reporter Test(failed) -->
+</suite> <!-- Failed suite [Simple Reporter Suite] -->

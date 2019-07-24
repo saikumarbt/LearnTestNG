@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="ReportNG Test Suite">
+    <test name = "ReportNG Test">
+        <classes>
+            <class name = "com.suntaragali.sample.SampleTest"/>
+        </classes>
+    </test>
+</suite>

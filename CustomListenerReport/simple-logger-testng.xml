@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = " Simple Logger Suite">
+    <listeners>
+        <listener class-name = "com.suntaragali.logger.CustomLogging"/>
+    </listeners>
+    <test name = "Simple Logger Test">
+        <classes>
+            <class name = "com.suntaragali.sample.SampleTest"/>
+        </classes>
+    </test>
+</suite>
